@@ -1,17 +1,30 @@
 plugins {
-    id 'java'
+    id 'java-library'
 }
 
 group 'org.example'
 version '1.0-SNAPSHOT'
+
+ext {
+    selenideVersion = "6.7.2"
+    junitVersion = "5.8.2"
+    assertjVersion = "3.22.0"
+    pdfTestVersion = "1.5.0"
+    xmlTestVersion = "1.4.3"
+}
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    testImplementation(
+            "com.codeborne:selenide:${selenideVersion}",
+            "org.junit.jupiter:junit-jupiter:${junitVersion}",
+            "org.assertj:assertj-core:${assertjVersion}",
+            "com.codeborne:pdf-test:${pdfTestVersion}",
+            "com.codeborne:xls-test:${xmlTestVersion}"
+    )
 }
 
 test {
