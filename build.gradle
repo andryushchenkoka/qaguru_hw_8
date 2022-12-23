@@ -12,6 +12,7 @@ ext {
     pdfTestVersion = "1.5.0"
     xmlTestVersion = "1.4.3"
     opencsvVersion = "5.7.1"
+    jacksonVersion = "2.14.0"
 }
 
 repositories {
@@ -25,7 +26,8 @@ dependencies {
             "org.assertj:assertj-core:${assertjVersion}",
             "com.codeborne:pdf-test:${pdfTestVersion}",
             "com.codeborne:xls-test:${xmlTestVersion}",
-            "com.opencsv:opencsv:${opencsvVersion}"
+            "com.opencsv:opencsv:${opencsvVersion}",
+            "com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}"
     )
 }
 

@@ -1,0 +1,46 @@
+{
+  "name": "Wednesday",
+  "season": 1,
+  "series": 8,
+  "year": "2022",
+  "genres": [
+    "comedy",
+    "fantasy",
+    "crime",
+    "detective"
+  ],
+  "country": "USA",
+  "crew": [
+    {
+      "name": "Tim Burton",
+      "role": "director"
+    },
+    {
+      "name": "Alfred Gough",
+      "role": "scenario"
+    },
+    {
+      "name": "Kayla Alpert",
+      "role": "producer"
+    }
+  ],
+  "actors" : [
+    {
+      "name": "Jenna Ortega",
+      "character": "Wednesday Addams"
+    },
+    {
+      "name": "Emma Myers",
+      "character": "Enid Sinclair"
+    },
+    {
+      "name": "Hunter Doohan",
+      "character": "Tyler Galpin"
+    },
+    {
+      "name": "Percy Hynes White",
+      "character": "Xavier Thorpe"
+    }
+  ],
+  "premierDate": "2022-10-31 00:00:00"
+}
