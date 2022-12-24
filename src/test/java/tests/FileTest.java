@@ -1,6 +1,6 @@
 package tests;
 
-import POJO.Film;
+import pojo.Film;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import parsing.FileParser;
